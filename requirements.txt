@@ -1,0 +1,5 @@
+anthropic
+gradio
+duckduckgo-search
+requests
+python-dotenv
