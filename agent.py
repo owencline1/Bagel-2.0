@@ -41,6 +41,7 @@ def run_agent(user_message: str, goal: str, history: list) -> str:
         max_tokens=4096,
         system=SYSTEM_PROMPT,
         messages=messages,
+        timeout=90.0,
     )
 
     for block in response.content:

@@ -65,13 +65,13 @@ pip install -r requirements.txt
 
 ### Add your API key
 
-Create a file named `.env` in the project folder and paste your key into it:
+Copy the example env file and paste your key into the copy:
 
-```
-ANTHROPIC_API_KEY=sk-ant-your-key-here
+```bash
+cp .env.example .env
 ```
 
-The `.env` file is gitignored so your key won't be committed to GitHub.
+Then open `.env` in any text editor and replace `sk-ant-your-key-here` with your actual Anthropic key. The `.env` file is gitignored so your key won't be committed to GitHub.
 
 ### Run
 

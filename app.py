@@ -27,7 +27,7 @@ with gr.Blocks(title="Bagel 2.0") as app:
         placeholder="e.g. lose fat while keeping muscle, build mass, improve energy levels...",
     )
 
-    chatbot = gr.Chatbot(height=500, label="Bagel")
+    chatbot = gr.Chatbot(height=500, label="Bagel", type="messages")
 
     with gr.Row():
         msg_input = gr.Textbox(

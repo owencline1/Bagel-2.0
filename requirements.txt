@@ -1,5 +1,5 @@
-anthropic
-gradio
-duckduckgo-search
-requests
-python-dotenv
+anthropic>=0.42.0
+gradio>=4.44.0
+duckduckgo-search>=6.3.0
+requests>=2.31.0
+python-dotenv>=1.0.0
